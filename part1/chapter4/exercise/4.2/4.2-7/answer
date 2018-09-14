@@ -1,0 +1,6 @@
+A = (a+b)(c+d) = ac + ad + bc + bd
+B = ac;
+C = bd;
+
+ans = (B-C)+(A-B-C)i
+//参考https://ita.skanev.com/04/02/07.html
