@@ -1,0 +1,6 @@
+1.partition返回的是r
+2.在
+  return i+1;
+  之前加一句
+  if(i+1 == r)
+	return (p+r)/2;
