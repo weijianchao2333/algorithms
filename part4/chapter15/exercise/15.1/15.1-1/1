@@ -1,0 +1,17 @@
+$\because T(n)=1+T(0)+T(1)+\cdots+T(n)$
+
+$\therefore T(n-1)=1+T(0)+T(1)+\cdots+T(n-2)$
+
+$\therefore T(n)=2*T(n-1)$
+
+$\frac{T(1)}{T(0)}*\frac{T(2)}{T(1)}*\cdots*\frac{T(n)}{T(n-1)}=\frac{T(n)}{T(0)}$
+
+即$2*2*\cdots*2=\frac{T(n)}{T(0)}$
+
+$2^n=\frac{T(n)}{T(0)}$
+
+又$T(0) = 1$
+
+$\therefore T(n) = 2^n$
+
+
